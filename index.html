@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container nav">
+            <h2 class="logo">Shubhangi Srivastava</h2>
+            <nav id="menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hello, I'm <span>Shubhangi Srivastava</span></h1>
+                <br>
+                <br>
+                <p class="subtitle">Aspiring AI/ML Engineer | CSE AIML Student</p>
+                <br>
+                <br>
+                <p>Welcome to my portfolio! I love creating websites, exploring AI, and solving coding challenges.</p>
+                <a href="#projects" class="btn">See My Projects</a>
+            </div>
+
+            <div class="hero-photo">
+                <!-- If no image, this circle becomes a gradient -->
+                <div class="photo-placeholder"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a first-year B.Tech CSE-AIML student passionate about Artificial Intelligence, Machine Learning,
+                and Web Development. I enjoy building creative projects and learning new technologies every day.
+            </p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>HTML & CSS</h3>
+                    <div class="bar"><span style="width: 85%;"></span></div>
+                </div>
+                <div class="skill">
+                    <h3>Python</h3>
+                    <div class="bar"><span style="width: 70%;"></span></div>
+                </div>
+                <div class="skill">
+                    <h3>C / C++</h3>
+                    <div class="bar"><span style="width: 75%;"></span></div>
+                </div>
+                <div class="skill">
+                    <h3>Machine Learning Basics</h3>
+                    <div class="bar"><span style="width: 55%;"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="project-cards">
+
+                <!-- PROJECT 1 -->
+                <div class="card">
+                    <h3>Tech Gadget Launch Page</h3>
+                    <p>AuraBand Smartwatch ⌚⚡—a premium tech-gadget launch page featuring detailed specs, model comparisons, and repository structure for documentation and firmware support. This project highlights my ability to create polished, product-ready pages with clear technical communication and modern presentation.</p>
+                    <a class="btn" href="https://github.com/shubhangi-1010/tech-gadget-launch-page.git" target="_blank">
+                        View GitHub Repo
+                    </a>
+                </div>
+
+                <!-- PROJECT 2 -->
+                <div class="card">
+                    <h3>Basic Travel website</h3>
+                    <p>A static HTML travel website 🌍 built to inspire exploration through destination highlights, essential travel guides, and a curated gallery ✨. This project reflects my skills in structuring clean, user-friendly web pages 📄 with future plans to enhance it using CSS and JavaScript for a richer experience 💡.</p>
+                    <a class="btn" href="https://github.com/shubhangi-1010/Shubhangi_202501100400316.git" target="_blank">
+                        View GitHub Repo
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+
+            <p>Email: <a href="mailto:your.email@gmail.com">shubhangi0207@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/shubhangi-1010" target="_blank">github.com/shubhangi-1010</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/shubhangi-srivastava-436861380/"
+ target="_blank">linkedin.com/in/myprofile</a></p>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Shubhangi Srivastava. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("open");
+        }
+    </script>
+
+</body>
+</html>
